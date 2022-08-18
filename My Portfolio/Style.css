@@ -1,0 +1,42 @@
+
+ h1{color: aqua;}
+ *{border:solid}
+
+.header{
+    background-color: beige;
+    display:flex;
+    justify-content: space-around;
+}
+.grid{
+    background-color: deepskyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.icons{
+    background-color: rgb(91, 122, 148);
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+.site-description{
+  background-color: rgb(123, 93, 134);
+}
+body{
+    background-color: #808080;
+    border-color: #000;
+    padding: 1cm;
+    margin: 0.2cm;
+    font-size: large;
+    border: 6mm;
+
+}
+.menu{
+    display: flex;
+    justify-content:stretch;
+    flex-wrap: wrap;
+}
+
+
